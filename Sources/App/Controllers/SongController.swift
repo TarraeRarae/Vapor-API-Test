@@ -43,7 +43,6 @@ struct SongController: RouteCollection {
 
   // DELETE request /songs/id route
   func delete(req: Request) throws -> EventLoopFuture<HTTPStatus> {
-//    let song = try req.content.decode(Song.self)
     return Song.find(req.parameters.get("songID"), on: req.db)
       .unwrap(or: Abort(.notFound))
       .flatMap { $0.delete(on: req.db) }
