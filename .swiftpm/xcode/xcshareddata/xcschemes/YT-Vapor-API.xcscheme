@@ -74,7 +74,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "YES"
-      customWorkingDirectory = "/Users/aleksej/Desktop/YT-Vapor-API"
+      customWorkingDirectory = "/Users/aleksej/Desktop/Vapor-API-Test"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
